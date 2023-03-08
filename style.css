@@ -1,8 +1,8 @@
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
+	font-family: Helvetica;
 	padding: 0;
-	background-color: #F4FFFD;
+	background-color: #14110F ;
+	color: #FBF5F3;
 
 	min-height: 100vh;
 	display: flex;
@@ -15,92 +15,51 @@ header {
 	padding: 20px;
 }
 
-nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-	display: inline-block;
-	margin: 0 10px;
-}
-
-nav a {
-	color: #fff;
-	text-decoration: none;
-}
-
-main {
-	margin: 10px, 0, 0, 0 auto;
-	max-width: 800px;
-	padding: 0 20px;
-}
-
-section {
-	margin-bottom: 50px;
-}
-
-h2 {
-	font-size: 28px;
-	margin-bottom: 20px;
-}
-
-p {
-	font-size: 16px;
-	line-height: 1.5;
-	margin-bottom: 20px;
-}
-
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-button{
-	color: white;
-	background-color: #246EB9;
-	border: none;
-	padding: 10px 30px;
-	border-radius: 5%;
-	margin: 0px 10px;
-	transition: background-color 0.30s;
-	
-}
-
-button:hover{
-	background-color: rgb(128, 138, 159);
-}
-
-li {
-	margin-bottom: 10px;
-}
-
-.cta-button {
-	background-color: #246EB9;
-	border: none;
-	border-radius: 5%;
-	color: #fff;
-	display: inline-block;
-	font-size: 16px;
-	margin-top: 20px;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	transition: background-color 0.30s;
-}
-
-.cta-button:hover {
-	background-color: rgb(128, 138, 159);
-}
-
 footer {
 	background-color: #eee;
 	padding: 20px;
 	text-align: center;
 	padding: 50px;
-	margin-top: auto;
-	
-	
+	margin-top: auto;	
+	background-color: #27211d ;
+	padding-top: 20px;
 }
+
+.navbar  {
+	margin: 10px 10px;
+}
+
+.navbar-button {
+	margin: 10px 10px;
+	padding: 10px 30px;
+	background-color: #3870A8;
+	border-style:none;
+	color: #FBF5F3;
+	display:inline-block;
+	transition: background-color 0.15s;
+
+}
+
+.navbar-button:hover {
+	background-color: #3870a8a4;
+}
+
+p {
+	margin-left: 30px;
+}
+
+.readmore-button {
+	margin: 5px 30px;
+	padding: 10px 30px;
+	background-color: #3870A8;
+	border-style:none;
+	color: #FBF5F3;
+	margin-bottom: 50px;
+
+}
+
+.header-top {
+	display:inline-block;
+
+}
+
