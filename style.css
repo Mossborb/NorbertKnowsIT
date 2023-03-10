@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica;
+	font-family: Calibri;
 	padding: 0;
 	background-color: #14110F ;
 	color: #FBF5F3;
@@ -61,12 +61,30 @@ footer {
 }
 
 .blog-post {
-	margin-right: 5%;
+	margin-right: 40%;
 	margin-left: 5%;
+	font-size: 18px;
+	line-height: 1.3em;
+
+
 }
 
 .main-page {
 
-	margin-left: 20px;
+	margin-left: 60px;
 }
 
+the-date {
+	color:rgb(226, 223, 223);
+	font-size: 16px;
+	margin-top: 1px;
+}
+
+h2 {
+	margin-bottom: 5px;
+}
+
+the-date {
+	color: rgb(224, 224, 224);
+
+}
